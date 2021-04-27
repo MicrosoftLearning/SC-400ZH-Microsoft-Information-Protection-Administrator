@@ -8,7 +8,7 @@
 
 1. 使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**，并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到合规中心。  Joni 的密码应由实验室托管提供程序提供。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com** ，并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到合规中心。  Joni 的密码应由实验室托管提供程序提供。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **“策略”**，然后在 **“数据”** 下选择 **“数据丢失防护”**。
 
@@ -16,7 +16,7 @@
 
 5. 在 **“先使用模板或创建自定义策略”** 页面，选择左侧窗格中的 **“自定义”**，然后选择中间窗格的 **“自定义策略”**，不过在默认情况下，这些选项都处于已选中状态（如果未选中，则现在选择它们），然后选择 **“下一步”**。
 
-6. 在 **“为 DLP 策略命名”** 页面中，在 **“名称”** 字段中键入 *“信用卡 DLP 策略”*，并在 **“描述”** 字段中键入 *“保护信用卡号不被共享”*。选择**“下一步”**。
+6. 在 **“为 DLP 策略命名”** 页面中，在 **“名称”** 字段中键入 *“信用卡 DLP 策略”*，并在 **“描述”** 字段中键入 *“保护信用卡号不被共享”*。选择 **“下一步”**。
 
 7. 在 **“选择应用策略的位置”** 页面上，仅选择启用 **“Teams 聊天和频道消息”** 选项，然后选择 **“下一步”**。
 
@@ -64,7 +64,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。 
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com**。
+2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **“策略”**，然后在 **“数据”** 下选择 **“数据丢失防护”**。
 
@@ -72,7 +72,7 @@
 
 5. 在 **“为 DLP 策略命名”** 页面上，选择 **“下一步”**。
 
-6. 在 **“选择应用策略的位置”** 页面上，启用 **“Exchange 电子邮件”** 选项，然后选择 **“下一步”**，直到出现 **“查看你的策略并创建它”** 页面*。
+6. 在 **“选择应用策略的位置”** 页面上，启用 **“Exchange 电子邮件”** 选项，然后选择 **“下一步”**，直到出现 **“查看你的策略并创建它”** 页面。
 
 7. 选择 **“提交”** 以应用在策略中进行的修改。
 
@@ -108,7 +108,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。 
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com**。
+2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **“策略”**，然后在 **“数据”** 下选择 **“数据丢失防护”**。
 
@@ -116,7 +116,7 @@
 
 5. 选择 **“下一步”**，直到看到 **“测试或启用策略”** 页面，然后选择 **“是，立即启用策略”**。
 
-6. 选择**“下一步”**，然后选择 **“提交”** 以激活策略。
+6. 选择 **“下一步”**，然后选择 **“提交”** 以激活策略。
 
 你已成功激活该 DLP 策略。如果策略检测到有人试图共享信用卡信息，它将阻止该操作，并允许用户提供业务正当理由来覆盖该阻止操作。
 
@@ -126,7 +126,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。 
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com**。
+2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **“策略”**，然后在 **“数据”** 下选择 **“数据丢失防护”**。
 
@@ -144,7 +144,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://portal.cloudappsecurity.com**，并以 **MOD 管理员**身份 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 Id）登录到 Cloud App Security 门户。  管理员的密码应由实验室托管提供程序提供。
+2. 在 **Microsoft Edge** 中，导航到 **https://portal.cloudappsecurity.com** ，并以 **MOD 管理员**身份 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 Id）登录到 Cloud App Security 门户。  管理员的密码应由实验室托管提供程序提供。
 
 3. 在右上角的个人资料信息旁边，选择 **“设置”** 齿轮，然后在下拉菜单中选择 **“设置”**。
 
@@ -160,7 +160,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管服务提供程序提供的唯一租户 ID）登录到 Microsoft 365。  Joni 的密码应由实验室托管提供程序提供。
 
-2. 在 **Microsoft Edge** 中，Cloud App Security 门户标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://portal.cloudappsecurity.com**。
+2. 在 **Microsoft Edge** 中，Cloud App Security 门户标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://portal.cloudappsecurity.com** 。
 
 3. 在 **Microsoft Cloud App Security** 门户的左侧导航窗格中，展开 **“控制”** 并选择 **“策略”**。
 
@@ -194,7 +194,7 @@
 
 1. 使用 **lon-cl2\admin** 帐户登录到客户端 2 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://admin.powerplatform.microsoft.com**，并以 **MOD 管理员**身份 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到 Power Platform 管理中心。  管理员的密码应由实验室托管提供程序提供。
+2. 在 **Microsoft Edge** 中，导航到 **https://admin.powerplatform.microsoft.com** ，并以 **MOD 管理员**身份 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到 Power Platform 管理中心。  管理员的密码应由实验室托管提供程序提供。
 
 3. 在 **Power Platform 管理中心**的左侧导航窗格中，选择 **“数据策略”**。
 
@@ -206,7 +206,7 @@
 
 7. 选择 **“下一步”**。
 
-8. 在 **“定义范围”** 页面上，选择 **“添加所有环境”**，然后选择**“下一步”**。
+8. 在 **“定义范围”** 页面上，选择 **“添加所有环境”**，然后选择 **“下一步”**。
 
 9. 在 **“查看并创建策略”** 页面上，查看策略设置并选择 **“创建策略”**。
 

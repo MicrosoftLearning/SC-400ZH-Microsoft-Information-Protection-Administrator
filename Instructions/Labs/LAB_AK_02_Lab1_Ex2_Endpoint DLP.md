@@ -8,7 +8,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管服务提供程序提供的唯一租户 ID）登录到 Microsoft 365。  Joni 的密码应由实验室托管提供程序提供。
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com**。
+2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **“设置”**，然后选择 **“设备加入”**。
 
@@ -71,7 +71,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。 
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com**。
+2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **“策略”**，然后在 **“数据”** 下选择 **“数据丢失防护”**。
 
@@ -123,7 +123,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。 
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com**。
+2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **“策略”**，然后在 **“数据”** 下选择 **“数据丢失防护”**。
 

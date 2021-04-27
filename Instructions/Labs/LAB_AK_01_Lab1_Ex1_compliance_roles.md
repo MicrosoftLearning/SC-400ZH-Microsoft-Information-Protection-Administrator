@@ -46,7 +46,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)。 
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com** 。
 
 3. 显示 **“选择帐户”** 窗口时，请选择 **“使用其他帐户”**。
 

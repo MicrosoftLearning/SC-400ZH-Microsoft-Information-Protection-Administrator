@@ -66,7 +66,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**，并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到合规中心。  Joni 的密码应由实验室托管提供程序提供。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com** ，并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到合规中心。  Joni 的密码应由实验室托管提供程序提供。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **…全部显示**，然后选择 **“信息保护”**。  
 
@@ -157,7 +157,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。  以 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管服务提供程序提供的唯一租户 ID）登录。  Joni 的密码应由实验室托管提供程序提供。
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新标签页中，导航到 **https://compliance.microsoft.com**。
+2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新标签页中，导航到 **https://compliance.microsoft.com** 。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **…全部显示**，然后选择 **“信息保护”**。 
 
@@ -200,7 +200,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管服务提供程序提供的唯一租户 ID）登录到 Microsoft 365。  Joni 的密码应由实验室托管提供程序提供。
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。选择地址栏，然后导航到 **https://portal.office.com**。
+2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。选择地址栏，然后导航到 **https://portal.office.com** 。
 
 3. 如果显示消息 **“使用 Office 365 完成工作”**，请点击右上角的 **X** 将其关闭。
 
@@ -214,7 +214,7 @@
 
    - 重要的人力资源员工文档。
 
-8. 从顶部窗格选择 **“敏感度”**，以打开下拉菜单。选择**“内部”**，以应用标签。
+8. 从顶部窗格选择 **“敏感度”**， 以打开下拉菜单。选择**“内部”**，以应用标签。
     请注意，你在本练习的任务 1 中运行的脚本为租户激活了 Word 中的敏感度标签。  有时，可能需要一个小时才能在 Microsoft Word Online 中实现该激活。  如果 Word 中未显示敏感度标签菜单，则可能需要稍后返回本实验室，或确保正确完成了本练习的任务 1。
     ![敏感度标签。 ](../Media/word_label.png)
 
@@ -256,7 +256,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**，并以 **Joni Sherman** 身份登录到合规中心。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com** ，并以 **Joni Sherman** 身份登录到合规中心。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **…全部显示**，然后选择 **“信息保护”**。  
 
@@ -283,7 +283,7 @@
 
 11. 在 **“检测符合这些条件的内容”** 部分，选择 **“+ 添加条件”**，然后选择 **“内容包含”**。
 
-12. 在 **“内容包含”** 部分，选择 **“添加”**文本，然后选择 **“敏感信息类型”**。
+12. 在 **“内容包含”** 部分，选择 **“添加”** 文本，然后选择 **“敏感信息类型”**。
 
 13. 右侧将显示 **“敏感信息类型”** 面板。
 
@@ -317,7 +317,7 @@
 
 27. 右侧将显示名为 **“要发布的敏感度标签”** 的侧栏。
 
-28. 选中 **“内部”**和 **“内部/GDPR 德国”** 复选框。
+28. 选中 **“内部”** 和 **“内部/GDPR 德国”** 复选框。
 
 29. 选择 **“添加”**。
 

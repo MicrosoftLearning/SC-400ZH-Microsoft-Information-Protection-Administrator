@@ -40,7 +40,7 @@ Contoso Ltd. 之前遇到过员工在使用票证解决方案处理支持票证�
 
 17. 选择“数据分类”区域右上方的 **“搜索”** 框，键入 *Contoso* 并按 Enter 键。
 
-18. 选择新创建的敏感信息类型 *“Contoso 员工 ID”* 以打开右侧窗格**。
+18. 选择新创建的敏感信息类型 *“Contoso 员工 ID”* 以打开右侧窗格。
 
 19. 查看敏感信息类型的配置设置。
 
@@ -58,7 +58,7 @@ Contoso Ltd. 之前遇到过员工在使用票证解决方案处理支持票证�
 
 3. 关闭浏览器窗口，并打开新的浏览器窗口。
 
-4. 在 **Microsoft Edge** 中，导航到 **https://admin.microsoft.com**。
+4. 在 **Microsoft Edge** 中，导航到 **https://admin.microsoft.com** 。
 
 5. 显示 **“选择帐户”** 页面时，选择 **“使用其他帐户”** 并以 **MOD 管理员**身份 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录。  管理员的密码应由实验室托管提供程序提供。
 
@@ -172,7 +172,7 @@ Contoso Ltd. 之前遇到过员工在使用票证解决方案处理支持票证�
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。 
 
-2. 在 **Microsoft Edge** 中，导航到 **https://go.microsoft.com/fwlink/?linkid=2088639**，以访问 EDM 下载代理。
+2. 在 **Microsoft Edge** 中，导航到 **https://go.microsoft.com/fwlink/?linkid=2088639** ，以访问 EDM 下载代理。
 
 3. 选择 **“运行”** 以下载并安装该工具。
 
@@ -250,9 +250,9 @@ Contoso Ltd. 之前遇到过员工在使用票证解决方案处理支持票证�
 
 在同事报告病假后，用户发送电子邮件时发生了几次个人信息泄露违规。  发生这种情况时，原因或疾病就会被散布出去。
 
-1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365*。 
+1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。 
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com**。
+2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
 
 3. 从左侧窗格中选择 **“数据分类”**，并从顶部窗格中选择 **“敏感信息类型”**。
 
@@ -316,7 +316,7 @@ Contoso Ltd. 之前遇到过员工在使用票证解决方案处理支持票证�
 
 7. 关闭记事本窗口。
 
-8. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com**。
+8. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
 
 9. 在左侧导航窗格中，选择 **“数据分类”**，然后选择 **“敏感信息类型”** 选项卡。
 
@@ -332,7 +332,7 @@ Contoso Ltd. 之前遇到过员工在使用票证解决方案处理支持票证�
 
 15. 选择 **“测试”** 以开始分析。
 
-16. 在 **“匹配结果”**页面上，查看找到的匹配项。
+16. 在 **“匹配结果”** 页面上，查看找到的匹配项。
 
 17. 选择 **“完成”** 以关闭测试页面。
 

@@ -82,11 +82,11 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 1.	使用 **lon-cl2\admin** 帐户登录到客户端 2 VM (LON-CL2)。
 
-2.	从任务栏打开 **Microsoft Edge**，在出现的 **“欢迎使用新的 Microsoft Edge”** 窗口中选择 **“完成设置”**（如果显示）。
+2.	从任务栏打开 **Microsoft Edge**，在出现的 **“欢迎使用新的 Microsoft Edge”** 窗口中选择 **“完成设置”** （如果显示）。
 
 3. 选择 **“确认”** 以接受默认浏览器设置，然后选择 **“在不登录的情况下继续”**（如果显示）。
 
-4. 在 **Microsoft Edge** 中，导航到 **https://outlook.office.com**，并以 LynneR@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 Id）登录到 Outlook 网页版。  Lynne Robin 的密码应由实验室托管提供程序提供。
+4. 在 **Microsoft Edge** 中，导航到 **https://outlook.office.com** ，并以 LynneR@WWLxZZZZZZ.onmicrosoft.com （其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 Id）登录到 Outlook 网页版。  Lynne Robin 的密码应由实验室托管提供程序提供。
 
 5. 在 **“保持登录?”** 对话框上，选中 **“不再显示此内容”** 复选框，然后选择 **“否”**。
 
