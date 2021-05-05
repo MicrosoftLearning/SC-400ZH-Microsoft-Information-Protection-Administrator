@@ -14,7 +14,7 @@ Contoso Ltd. 租户包含一个名为“销售和营销”的 SharePoint 网站�
 
 3. 关闭浏览器窗口，并打开新的浏览器窗口。
 
-4. 在 **Microsoft Edge** 中， 导航到 **https://compliance.microsoft.com**。
+4. 在 **Microsoft Edge** 中， 导航到 **https://compliance.microsoft.com**
 
 5. 显示 **“选择帐户”** 页面时，选择 **“使用其他帐户”** 并以 **MOD 管理员**身份 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录。  管理员的密码应由实验室托管提供程序提供。
 
@@ -42,7 +42,7 @@ Contoso Ltd. 租户包含一个名为“销售和营销”的 SharePoint 网站�
 
 3. 关闭浏览器窗口，并打开新的浏览器窗口。
 
-4. 在 **Microsoft Edge** 中， 导航到 **https://compliance.microsoft.com** 。
+4. 在 **Microsoft Edge** 中， 导航到 **https://compliance.microsoft.com**
 
 5. 显示 **“选择帐户”** 页面时，请选择 **“使用其他帐户”** 并以 **Joni Sherman** 身份登录。以 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管服务提供程序提供的唯一租户 ID）登录。  Joni 的密码应由实验室托管提供程序提供。
 
