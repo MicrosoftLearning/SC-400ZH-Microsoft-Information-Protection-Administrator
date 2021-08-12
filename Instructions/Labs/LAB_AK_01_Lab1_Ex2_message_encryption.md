@@ -1,4 +1,4 @@
-﻿# 练习 2 - 管理 Office 365 邮件加密
+﻿# 实验室 1 练习 2 - 管理 Office 365 邮件加密
 
 Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Microsoft 365 内置 Office 365 邮件加密 (OME)。为此，她将修改默认模板并创建一个新的品牌模板，该模板将分配给其中一位试点用户。然后，试点用户将使用其帐户测试 OME 功能。
 
@@ -8,21 +8,21 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 右键选择 Windows 按钮，然后右键单击 **Windows PowerShell** 并选择 **“以管理员身份运行”**，以打开权限提升的 PowerShell 窗口。
+2. 右键选择 Windows 按钮，然后选择 **“Windows PowerShell (管理员)”**，以打开提升的 PowerShell 窗口。
 
 3. 选择 **“是”** 确认 **“用户帐户控制”** 窗口。
 
 4. 输入以下 cmdlet，安装最新版 Exchange Online PowerShell 模块：
 
-    Install-Module ExchangeOnlineManagement
+    `Install-Module ExchangeOnlineManagement`
 
-5. 输入表示“是”的 **Y** 并按 **Enter**，以确认“NuGet 提供程序安全”对话框。
+5. 输入表示“是”的 **Y** 并按 **Enter**，以确认“NuGet 提供程序安全”对话框。 此过程可能需要几秒钟时间才能完成。
 
-6. 输入表示“是”的 **Y** 并按 **Enter**，以确认“不受信任的存储库安全”对话框。
+6.  输入表示“是”的 **Y** 并按 **Enter**，以确认“不受信任的存储库安全”对话框。 此过程可能需要几秒钟时间才能完成。
 
 7. 输入以下 cmdlet 以更改执行策略，然后按 **Enter**
 
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 8. 单击表示“是”的 **Y** 并按 **Enter**，以确认“执行策略更改”。 
 
@@ -32,17 +32,17 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 11. 输入以下 cmdlet 以使用 Exchange Online PowerShell 模块并连接到租户：
 
-    Connect-ExchangeOnline
+    `Connect-ExchangeOnline`
 
 12. 显示 **“登录”** 窗口时，以 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录。  Joni 的密码应由实验室托管提供程序提供。
 
-13. 使用以下 cmdlet 验证是否在租户中激活了 Azure RMS 和 IRM：
+13. 使用以下 cmdlet 并按 **Enter**，验证是否在租户中激活了 Azure RMS 和 IRM：
 
-    Get-IRMConfiguration | fl AzureRMSLicensingEnabled
+    `Get-IRMConfiguration | fl AzureRMSLicensingEnabled`
 
-14. 针对另一个试点用户 **Megan Bowen** 测试用于 Office 365 邮件加密的 Azure RMS 模板：
+14. 使用以下 cmdlet 并按 **Enter**，针对另一个试点用户 **Megan Bowen** 测试用于 Office 365 邮件加密的 Azure RMS 模板：
 
-    Test-IRMConfiguration -Sender MeganB@contoso.com
+    `Test-IRMConfiguration -Sender MeganB@contoso.com`
 
 15. 验证是否所有测试均为“通过”状态，并且未显示任何错误。
 
@@ -58,21 +58,21 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 2. 运行以下 cmdlet 以查看默认的 OME 配置：
 
-    Get-OMEConfiguration -Identity "OME Configuration" |fl
+    `Get-OMEConfiguration -Identity "OME Configuration" |fl`
 
 3. 查看设置，并确认 SocialIdSignIn 参数设置为 True。
 
 4. 运行以下 cmdlet，以限制使用社交 ID 从受 OME 保护的租户访问邮件：
 
-    Set-OMEConfiguration -Identity "OME Configuration" -SocialIdSignIn:$false
+    `Set-OMEConfiguration -Identity "OME Configuration" -SocialIdSignIn:$false`
 
 5. 单击表示“是”的 **Y** 并按 **Enter**，以确认有关自定义默认模板的警告消息。
 
 6. 再次检查默认配置，并验证 SocialIdSignIn 参数现在设置为 False。
 
-    Get-OMEConfiguration -Identity "OME Configuration" |fl
+    `Get-OMEConfiguration -Identity "OME Configuration" |fl`
 
-7. 使 PowerShell 窗口和客户端保持打开状态。
+7. 请注意，结果应显示 SocialIDSignIn 设置为 False。使 PowerShell 窗口和客户端保持打开状态。
 
 你已成功停用 Office 365 邮件加密中的外部标识提供者（例如 Google 和 Facebook）。
 
@@ -86,7 +86,7 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 3. 选择 **“确认”** 以接受默认浏览器设置，然后选择 **“在不登录的情况下继续”**（如果显示）。
 
-4. 在 **Microsoft Edge** 中，导航到 **https://outlook.office.com** ，并以 LynneR@WWLxZZZZZZ.onmicrosoft.com （其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 Id）登录到 Outlook 网页版。  Lynne Robin 的密码应由实验室托管提供程序提供。
+4. 在 **Microsoft Edge** 中，导航到 **https://outlook.office.com** ，并以 LynneR@WWLxZZZZZZ.onmicrosoft.com （其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 Id）登录到 Outlook 网页版。  Lynne Robin 的密码应由实验室托管提供程序提供。提示：通常它与实验室租户中 MOD 管理员的密码相同。
 
 5. 在 **“保持登录?”** 对话框上，选中 **“不再显示此内容”** 复选框，然后选择 **“否”**。
 
@@ -102,7 +102,7 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 11. 选择 **“发送”** 以发送邮件。
 
-12. 登录到个人电子邮件帐户，然后打开来自 Lynne Robbins 的邮件。  如果将此电子邮件发送到 Microsoft 帐户（如 @outlook.com），则系统会自动处理加密，你可看到邮件。  如果将电子邮件发送到其他电子邮件服务（如 @google.com），则可能必须执行以下步骤才能处理加密和阅读邮件。
+12. 登录到个人电子邮件帐户，然后打开来自 Lynne Robbins 的邮件。  如果将此电子邮件发送到 Microsoft 帐户（如 @outlook.com），则系统会自动处理加密并自动显示邮件。  如果将电子邮件发送到其他电子邮件服务（如 @google.com），则可能必须执行以下步骤才能处理加密和阅读邮件。
 
 13. 选择 **“阅读邮件”**。
 
@@ -126,31 +126,31 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 2. 运行以下 cmdlet 以创建新的 OME 配置：
 
-    New-OMEConfiguration -Identity "Finance Department" -ExternalMailExpiryInDays 7 
+    `New-OMEConfiguration -Identity "Finance Department" -ExternalMailExpiryInDays 7` 
 
 3. 单击表示“是”的 **Y** 并按 **Enter**，以确认有关自定义模板的警告消息。
 
 4. 使用以下 cmdlet 更改说明文本消息：
 
-    Set-OMEConfiguration -Identity "Finance Department" -IntroductionText " from Contoso Ltd. finance department has sent you a secure message."
+    `Set-OMEConfiguration -Identity "Finance Department" -IntroductionText " from Contoso Ltd. finance department has sent you a secure message."`
 
 5. 单击表示“是”的 **“Y”** 并按 **Enter**，以确认有关自定义模板的警告消息。
 
 6. 使用以下 cmdlet 更改邮件的正文电子邮件文本：
 
-    Set-OMEConfiguration -Identity "Finance Department" -EmailText "Encrypted message sent from Contoso Ltd. finance department. Handle the content responsibly."
+    `Set-OMEConfiguration -Identity "Finance Department" -EmailText "Encrypted message sent from Contoso Ltd. finance department. Handle the content responsibly."`
 
-7. 单击表示“是”的 **“Y”** 并按 **Enter**，以确认有关自定义模板的警告消息。
+7. 单击表示“是”的 **Y** 并按 **Enter**，以确认有关自定义模板的警告消息。
 
 8. 将免责声明 URL 更改为指向 Contoso 的隐私声明站点：
 
-    Set-OMEConfiguration -Identity "Finance Department" -PrivacyStatementURL "https://contoso.com/privacystatement.html"
+    `Set-OMEConfiguration -Identity "Finance Department" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`
 
-9. 单击表示“是”的 **“Y”** 并按 **Enter**，以确认有关自定义模板的警告消息。
+9. 单击表示“是”的 **Y** 并按 **Enter**，以确认有关自定义模板的警告消息。
 
-10. 使用以下 cmdlet 创建邮件流规则，该规则将自定义 OME 模板应用于财务团队发送的所有邮件。
+10. 使用以下 cmdlet 创建邮件流规则，该规则将自定义 OME 模板应用于财务团队发送的所有邮件。  完成此进程可能需要几秒钟时间。
 
-    New-TransportRule -Name "Encrypt all mails from Finance team" -FromScope InOrganization -FromMemberOf "Finance Team" -ApplyRightsProtectionCustomizationTemplate "Finance Department" -ApplyRightsProtectionTemplate Encrypt
+    `New-TransportRule -Name "Encrypt all mails from Finance team" -FromScope InOrganization -FromMemberOf "Finance Team" -ApplyRightsProtectionCustomizationTemplate "Finance Department" -ApplyRightsProtectionTemplate Encrypt`
 
 11. 使 PowerShell 保持打开状态。
 
