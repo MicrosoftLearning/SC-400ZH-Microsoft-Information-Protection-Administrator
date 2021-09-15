@@ -42,7 +42,9 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 14. 使用以下 cmdlet 并按 **Enter**，针对另一个试点用户 **Megan Bowen** 测试用于 Office 365 邮件加密的 Azure RMS 模板：
 
-    `Test-IRMConfiguration -Sender MeganB@contoso.com`
+    `Test-IRMConfiguration -Sender MeganB@contoso.com -Recipient MeganB@contoso.com`
+
+    ![IRM 验证脚本结果。 ](../Media/IRMvalidationl.png)
 
 15. 验证是否所有测试均为“通过”状态，并且未显示任何错误。
 
