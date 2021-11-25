@@ -65,7 +65,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**，并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 Id）登录到 Microsoft 365 合规性门户。  Joni 的密码应由实验室托管提供程序提供。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**， 并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 Id）登录到 Microsoft 365 合规性门户。  Joni 的密码应由实验室托管提供程序提供。
 
 3. 在 **Microsoft 365 合规性**门户的左侧导航窗格上，选择“**信息保护**”。  
 
@@ -156,7 +156,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。  以 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管服务提供程序提供的唯一租户 ID）登录。  Joni 的密码应由实验室托管提供程序提供。
 
-2. 在 Microsoft Edge 中， **“Microsoft 365 合规中心”** 选项卡应该仍处于打开状态。如果是，请选择该选项卡并继续进行下一步。如果该选项卡已关闭，则在新的选项卡中，导航到 **https://compliance.microsoft.com**。
+2. 在 Microsoft Edge 中， **“Microsoft 365 合规中心”** 选项卡应该仍处于打开状态。如果是，请选择该选项卡并继续进行下一步。如果该选项卡已关闭，则在新的选项卡中，导航到 **https://compliance.microsoft.com** 。
 
 3. 在 **Microsoft 365 合规性**门户的左侧导航窗格上，选择“**信息保护**”。 
 

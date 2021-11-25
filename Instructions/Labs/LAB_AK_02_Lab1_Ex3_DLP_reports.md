@@ -8,7 +8,7 @@
 
 1. 使用 **“lon-cl1\admin”** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**，并以 **MOD 管理员**身份 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到 Microsoft 365 合规性门户。  管理员的密码应由实验室托管提供程序提供。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**， 并以 **MOD 管理员**身份 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到 Microsoft 365 合规性门户。  管理员的密码应由实验室托管提供程序提供。
 
 3. 在左侧导航窗格中，选择“**权限**”，然后在合规中心下选择“**角色**”。  标记“**安全读取者**”角色旁边的框。
 
@@ -30,7 +30,7 @@
 
 1. 使用 **“lon-cl2\admin”** 帐户登录到客户端 2 VM (LON-CL2)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**，并以 **Megan Bowen** 身份 MeganB@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到 Microsoft 365 合规性门户。  Megan 的密码应由实验室托管提供程序提供。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**， 并以 **Megan Bowen** 身份 MeganB@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到 Microsoft 365 合规性门户。  Megan 的密码应由实验室托管提供程序提供。
 
 3. 在左侧导航窗格中，选择 **“报告”** 并查看对“报告仪表板”的访问权限。
 
