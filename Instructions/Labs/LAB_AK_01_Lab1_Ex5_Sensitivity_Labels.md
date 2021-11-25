@@ -1,4 +1,4 @@
-﻿# 练习 5 - 管理敏感度标签
+# 练习 5 - 管理敏感度标签
 
 在本实验室中，你将扮演 Contoso Ltd 的系统管理员 Joni Sherman。 
 你的组织位于德国的雷德尼茨亨巴赫，目前打算实现一个敏感度计划，以确保人力资源部门的所有员工文档都已使用敏感度标签标记为组织信息保护策略的一部分。
@@ -65,9 +65,9 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com** ，并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到合规中心。  Joni 的密码应由实验室托管提供程序提供。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**， 并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 Id）登录到 Microsoft 365 合规性门户。  Joni 的密码应由实验室托管提供程序提供。
 
-3. 在 **合规中心** 的左侧导航窗格中，选择 **“信息保护”**。  
+3. 在 **Microsoft 365 合规性**门户的左侧导航窗格上，选择“**信息保护**”。  
 
 4. 在 **“信息保护”** 页面的 **“标签”** 选项卡下，选择 **“+ 创建标签”**。
 
@@ -156,9 +156,9 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。  以 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管服务提供程序提供的唯一租户 ID）登录。  Joni 的密码应由实验室托管提供程序提供。
 
-2. 在 Microsoft Edge 中， **“Microsoft 365 合规中心”** 选项卡应该仍处于打开状态。如果是，请选择该选项卡并继续进行下一步。如果该选项卡已关闭，则在新的选项卡中，导航到 **https://compliance.microsoft.com**。
+2. 在 Microsoft Edge 中， **“Microsoft 365 合规中心”** 选项卡应该仍处于打开状态。如果是，请选择该选项卡并继续进行下一步。如果该选项卡已关闭，则在新的选项卡中，导航到 **https://compliance.microsoft.com** 。
 
-3. 在 **合规中心** 的左侧导航窗格中，选择 **“信息保护”**。 
+3. 在 **Microsoft 365 合规性**门户的左侧导航窗格上，选择“**信息保护**”。 
 
 4. 在 **“信息保护”** 页面的 **“标签”** 选项卡上，选择 **“发布标签”**。
 
@@ -261,9 +261,9 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com** ，并以 **Joni Sherman** 身份登录到合规中心。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com** 并以 **Joni Sherman** 的身份登录到 Microsoft 365 合规性门户。
 
-3. 在 Microsoft 365 合规中心的左侧导航窗格中，选择 **“信息保护”**。  
+3. 在 **Microsoft 365 合规**性门户的左侧导航窗格上，选择“**信息保护**”。  
 
 4. 在 **“信息保护”** 页面上，突出显示（无需选择）现有的内部标签，然后选择三个点。
 

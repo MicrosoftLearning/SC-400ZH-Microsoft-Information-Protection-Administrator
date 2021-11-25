@@ -1,4 +1,4 @@
-﻿# 实验室 2 练习 1 - 管理 DLP 策略
+# 实验室 2 练习 1 - 管理 DLP 策略
 
 你是 Joni Sherman，Contoso Ltd. 新上任的合规性管理员，负责配置公司的 Microsoft 365 租户以防止数据丢失。Contoso Ltd. 是美国的一家提供驾驶指导服务的公司，你需要确保组织不会泄露敏感客户信息。
 
@@ -8,9 +8,9 @@
 
 1. 使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com** ，并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到合规中心。  Joni 的密码应由实验室托管提供程序提供。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**， 并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到 Microsoft 365 合规性门户。  Joni 的密码应由实验室托管提供程序提供。
 
-3. 在**合规中心**的左侧导航窗格中，选择 **“策略”**，然后在 **“数据”** 下选择 **“数据丢失防护”**。
+3. 在 **Microsoft 365 合规性**门户的左侧导航窗格中，选择“**策略**”，然后在“**数据**”下选择“**数据丢失防护**”。
 
 4. 在 **“数据丢失防护”** 窗口中选择 **“策略”** 选项卡，然后选择 **“+ 创建策略”**，以启动新建数据丢失防护策略的向导。
 
@@ -66,7 +66,7 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。 
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
+2. 在 **Microsoft Edge** 中，Microsoft 365 合规性门户标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
 
 3. 在**合规中心**的左侧导航窗格中，选择 **“策略”**，然后在 **“数据”** 下选择 **“数据丢失防护”**。
 
@@ -130,9 +130,9 @@
 
 1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且应该以 **Joni Sherman** 身份登录到 Microsoft 365。 
 
-2. 在 **Microsoft Edge** 中，Office 365 合规中心标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
+2. 在 **Microsoft Edge** 中，Microsoft 365 合规性门户标签页应该仍处于打开状态。如果是这样，请选择该标签页并继续进行下一步。如果该标签页已关闭，则在新的标签页中，导航到 **https://compliance.microsoft.com** 。
 
-3. 在**合规中心**的左侧导航窗格中，选择 **“策略”**，然后在 **“数据”** 下选择 **“数据丢失防护”**。
+3. 在 **Microsoft 365 合规性**门户的左侧导航窗格中，选择“**策略**”，然后在“**数据**”下选择“**数据丢失防护**”。
 
 4. 在 **“数据丢失防护”** 窗口中，选择 **“策略”** 选项卡，选择 **“驾照 DLP 策略”** 旁边三个垂直分布的点以打开 **“操作”** 选择。
 
