@@ -104,7 +104,7 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 11. 选择 **“发送”** 以发送邮件。
 
-12. 登录到个人电子邮件帐户，然后打开来自 Lynne Robbins 的邮件。  如果将此电子邮件发送到 Microsoft 帐户（如 @outlook.com），则系统会自动处理加密并自动显示邮件。  如果将电子邮件发送到其他电子邮件服务（如 @google.com），则可能必须执行以下步骤才能处理加密和阅读邮件。
+12. 登录到个人电子邮件帐户，然后打开来自 Lynne Robbins 的邮件。如果将此电子邮件发送到 Microsoft 帐户（如 @outlook.com），则系统可能会自动处理加密，并自动显示该邮件。如果将电子邮件发送到其他电子邮件服务（如 @google.com），则可能必须执行以下步骤才能处理加密和阅读邮件。
 
 13. 选择 **“阅读邮件”**。
 
@@ -154,7 +154,10 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
     `New-TransportRule -Name "Encrypt all mails from Finance team" -FromScope InOrganization -FromMemberOf "Finance Team" -ApplyRightsProtectionCustomizationTemplate "Finance Department" -ApplyRightsProtectionTemplate Encrypt`
 
-11. 使 PowerShell 保持打开状态。
+11. 键入以下 cmdlet 来验证更改。
+    `Get-OMEConfiguration -Identity "Finance Department" | Format-List`
+    
+12. 使 PowerShell 保持打开状态。
 
 你已经成功创建了新的传输规则，当财务部门的成员向外部收件人发送邮件时，该规则将自动应用自定义 OME 模板。
 
@@ -178,7 +181,7 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
     ![来自 Lynne Robbins 的加密电子邮件示例。 ](../Media/EncryptedEmail.png)
 
-9. 由于这两个选项均可用，因此自定义 OME 配置将激活社交 ID。选择 **“使用一次性密码登录”** 以接收限时密码。
+9. 自定义的 OME 配置激活了社交 ID，因为这两个选项都可用。选择“**使用一次性密码登录**”以接收限时密码。
 
 10. 转到个人电子邮件门户并打开主题为 **“用于查看邮件的一次性密码”** 的邮件。
 
