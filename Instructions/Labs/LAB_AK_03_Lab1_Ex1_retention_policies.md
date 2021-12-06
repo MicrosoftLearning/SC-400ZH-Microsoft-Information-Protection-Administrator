@@ -11,7 +11,7 @@
 
 1. 使用 **“lon-cl1\admin”** 帐户登录到客户端 1 VM (LON-CL1)。
 
-2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com**， 并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到 Microsoft 365 合规性门户。  Joni 的密码应由实验室托管提供程序提供。
+2. 在 **Microsoft Edge** 中，导航到 **https://compliance.microsoft.com** ， 并以 **Joni Sherman** 身份 JoniS@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供程序提供的唯一租户 ID）登录到 Microsoft 365 合规性门户。  Joni 的密码应由实验室托管提供程序提供。
 
 3. 在 **Microsoft 365 合规性**门户的左侧导航窗格中，选择“**策略**”，然后在“**数据**”下选择“**保留**”。
 
