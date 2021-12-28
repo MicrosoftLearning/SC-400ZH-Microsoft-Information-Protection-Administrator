@@ -1,4 +1,4 @@
-# 实验室 3 练习 4 - 使用电子数据展示进行恢复
+﻿# 实验室 3 - 练习 4 - 使用电子数据展示进行恢复
 
 在本练习中，假设你是 Joni Sherman，Contoso Ltd. 的合规性管理员。你的组织位于德克萨斯州，并且想要实现保留策略以遵守当地法律。Uniform Preservation of Private Business Records Act 规定，记录可以在三年后销毁而不会构成违法（特例除外），为了遵守该法，组织制定了一个保留计划，打算将组织内的所有项都保留三年。
 
@@ -112,7 +112,7 @@
 
 7. 在 **“定义搜索条件”** 页面的 **“关键字”** 字段中，键入 **“From:phishingmail@outlook.com AND subject:"Password changed"”** 并选择 **“下一步”**。
 
-8. 在 **“查看并创建搜索”** 窗口中，选择 **“提交”**。
+8. 在“**查看并创建搜索**”窗口中，选择“**提交**”。单击“**完成**”。
 
 9. 创建搜索后，需要使用 **“安全与合规 PowerShell”** 进行清除。在开始菜单中，选择以管理员身份运行 **Windows PowerShell**。
 
@@ -120,7 +120,7 @@
 
 	`Connect-IPPSSession`
 
-11. 在 **PowerShell** 窗口中，使用以下命令并按 **Y** 进行确认：
+11. 在 **PowerShell** 窗口中，使用以下命令：
 
 	`New-ComplianceSearchAction -SearchName "Phishing mail removal" -Purge -PurgeType HardDelete`
 
@@ -128,4 +128,4 @@
 
 你已经成功创建了新的内容搜索来查找特定电子邮件，然后使用清除操作从用户的邮箱中删除了钓鱼邮件。只能以“组织管理”角色的成员身份运行清除操作，而“合规性管理员”不属于该角色。
 
-# 继续进行练习 5
+# 继续进行实验室 3 - 练习 5
