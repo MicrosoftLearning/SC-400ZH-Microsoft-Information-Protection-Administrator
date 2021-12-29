@@ -110,7 +110,7 @@
 
 6. 在 **“位置”** 部分中，选择 **“特定位置”**，然后选择 **“Exchange 邮箱”** 以将其打开，再选择 **“下一步”**。
 
-7. 在 **“定义搜索条件”** 页面的 **“关键字”** 字段中，键入 **“From:phishingmail@outlook.com AND subject:"Password changed"”** 并选择 **“下一步”**。
+7. 在 **“定义搜索条件”** 页面的 **“关键字”** 字段中，键入 *“From:phishingmail@outlook.com AND subject:"Password changed"”* 并选择 **“下一步”**。
 
 8. 在“**查看并创建搜索**”窗口中，选择“**提交**”。单击“**完成**”。
 
