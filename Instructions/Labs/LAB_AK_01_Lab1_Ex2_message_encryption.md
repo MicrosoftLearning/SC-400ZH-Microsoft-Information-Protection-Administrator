@@ -1,4 +1,4 @@
-# 实验室 1 练习 2 - 管理 Office 365 邮件加密
+# 实验室 1 - 练习 2 - 管理 Office 365 邮件加密
 
 Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Microsoft 365 内置 Office 365 邮件加密 (OME)。为此，她将修改默认模板并创建一个新的品牌模板，该模板将分配给其中一位试点用户。然后，试点用户将使用其帐户测试 OME 功能。
 
@@ -124,7 +124,7 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 组织财务部门发送的受保护邮件需要特殊的品牌信息，包括自定义的简介和正文文本，以及页脚中的“免责声明”链接。财务邮件也应在 7 天后过期。在此任务中，你将创建新的自定义 OME 配置以及传输规则，以将 OME 配置应用于财务部门发送的所有邮件。
 
-1. 你仍应使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，并且仍然应该有一个处于打开状态且已连接 Exchange Online 的 PowerShell 窗口。
+1. 使用 **lon-cl1\admin** 帐户登录到客户端 1 VM (LON-CL1)，应该仍然有一个 PowerShell 窗口已打开且已连接 Exchange Online。
 
 2. 运行以下 cmdlet 以创建新的 OME 配置：
 
@@ -165,7 +165,7 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 要验证新的自定义 OME 配置，需要再次使用财务团队成员 Lynne Robbins 的帐户。
 
-1. 你仍应使用 **lon-cl2\admin** 帐户登录到客户端 2 VM (LON-CL2)，并且应该以 **Lynne Robbins** 身份登录到 Microsoft 365。 
+1. 使用 **lon-cl2\admin** 帐户登录到客户端 2 VM (LON-CL2)，你应该已作为 **Lynne Robbins** 登录到 Microsoft 365。 
 
 3. 从左侧导航窗格中选择 **Outlook** 符号。
 
@@ -191,4 +191,4 @@ Joni Sherman 需要对其试点团队配置和测试的第一个设置是 Micros
 
 你已经成功测试了新的自定义 OME 模板。 
 
-# 继续进行练习 3 
+# 继续进行实验室 1 - 练习 3 
