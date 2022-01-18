@@ -1,4 +1,13 @@
-﻿# SC-400T00：Microsoft 信息保护管理员
+**Important Notice!**
+
+This repo was replaced by a [new repo](https://github.com/MicrosoftLearning/SC-400T00A-Microsoft-Information-Protection-Administrator.zh-cn) on December 18th 2021. We're making this change to improve the localized version of this content and reduce the delta between English and localized content updates. 
+After a short interval, this repo will be archived.
+
+**Contributions**
+
+At this time, we are not accepting external contributions to this repo. If you have suggestions or spot any errors, please create a pull request or report an issue on the [new repo](https://github.com/MicrosoftLearning/SC-400T00A-Microsoft-Information-Protection-Administrator.zh-cn).
+
+# SC-400T00：Microsoft 信息保护管理员
 
 该存储库包含以下课程的实验室说明：
 
